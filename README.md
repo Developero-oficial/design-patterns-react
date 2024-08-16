@@ -289,8 +289,27 @@ function Dropdown({ children }) {
 **[Leer el Blog](https://developero.io/blog/react-js-design-patterns/props-getters)** | **[Ver el Video](https://youtu.be/CMfPGVKw0yU)**
 
 ### Inicializador de Estado
-Mira cómo los Inicializadores de Estado pueden hacer que tus componentes sean más predecibles y fáciles de probar.  
-**[Leer el Blog](https://developero.io/blog/react-inicializador-de-estado)** | **[Ver el Video](https://youtu.be/CMfPGVKw0yU)**
+El patrón State Initializer permite inicializar el estado de un componente en función de las props recibidas. Aunque esto puede lograrse directamente en el constructor de un componente de clase o en un Hook useState en un componente funcional, el patrón de State Initializer lleva esto un paso más allá, ofreciendo una mayor flexibilidad y control sobre el estado inicial.
+
+Ejemplo de Inicializador de Estado:
+```jsx
+function Counter({ initialCount }) {
+  const [count, setCount] = React.useState(initialCount)
+
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={() => setCount(count + 1)}>Incrementar</button>
+    </div>
+  )
+}
+
+// Uso:
+;<Counter initialCount={5} />
+
+```
+
+**[Leer el Blog](https://developero.io/blog/react-js-design-patterns/state-initializer)** | **[Ver el Video]([https://youtu.be/CMfPGVKw0yU](https://youtu.be/J-l97FzHAW4))**
 
 ---
 
