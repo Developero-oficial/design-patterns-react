@@ -32,8 +32,11 @@ Sin embargo, los patrones que veremos a continuación son creados en base a los 
 Por lo tanto, estos patrones no son aplicables a otras bibliotecas o frameworks como Vue.js o Angular.
 
 ### Introducción a los Patrones de Diseño React JS
-Aprende los conceptos básicos y la importancia de los patrones de diseño en React JS.  
-**[Leer el Blog](https://developero.io/blog/react-patrones-avanzados-introduccion)** | **[Ver el Video](https://www.youtube.com/watch?v=your_video_id)**
+Aprende los conceptos básicos y la importancia de los patrones de diseño en React JS.
+
+Si prefieres el formato en vídeo, entonces te recomiendo que veas el curso completo en YouTube.
+
+**[Leer el Blog](https://developero.io/blog/react-js-design-patterns)** | **[Ver el Curso Completo](https://youtu.be/_cilPGp_hRE))**
 
 ### Custom Hook
 Un custom hook es una función que empieza por "use" para que React.js lo pueda reconocer como un hook, y sirve para que puedas crear tus propios hooks.
