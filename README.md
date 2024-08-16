@@ -1,4 +1,6 @@
 # Design Patterns React
+
+![Design patterns react](https://github.com/Developero-oficial/design-patterns-react/blob/master/assets/react-js-design-patterns.png?raw=true)
 Bienvenido a **Design Patterns React** o **Patrones de diseño en React.js**. Esta guía cubre los patrones más efectivos y prácticos en React.js para ayudarte a escribir código más limpio y mantenible.
 
 ## Tabla de Contenidos
@@ -314,6 +316,8 @@ function Counter({ initialCount }) {
 ---
 
 ## Descargar el Ebook Completo
+
+![Descargar ebook patrones avanzados en react js](https://github.com/Developero-oficial/design-patterns-react/blob/master/assets/ebook-patrones-avanzados-reactjs-download.png?raw=true)
 
 ¿Quieres profundizar más en estos patrones con ejemplos detallados, ventajas, desventajas y más? Descarga el ebook completo **"9 Patrones Avanzados en React.js"** gratis.
 
